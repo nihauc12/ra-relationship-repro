@@ -1,0 +1,21 @@
+{
+  "tableA": [
+    {
+      "id": 2,
+      "title": "FooBar"
+    }
+  ],
+  "tableB": [
+    {
+      "id": 2,
+      "title": "titi"
+    }
+  ],
+  "tableA_tableB": [
+    {
+      "id": 3,
+      "tableA_id": 2,
+      "tableB_id": 2
+    }
+  ]
+}
