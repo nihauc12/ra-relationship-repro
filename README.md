@@ -6,7 +6,7 @@ json-server --watch db.json --port 3001
 
 ## do
 goto http://localhost:3000/#/tableA/2  
-save
+try removing TableB value
 
 ## result
-manytomany field value disappear
+TableB is resetted to original value from db
