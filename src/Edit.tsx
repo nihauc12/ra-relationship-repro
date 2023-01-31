@@ -1,4 +1,4 @@
-import { Edit, SimpleForm, TextInput, SelectArrayInput } from 'react-admin';
+import { Edit, SimpleForm, TextInput, SelectArrayInput, AutocompleteArrayInput } from 'react-admin';
 import { ReferenceManyToManyInput } from '@react-admin/ra-relationships';
 
 export const TableaEdit = () => (
@@ -12,7 +12,7 @@ export const TableaEdit = () => (
                 through="tableA_tableB"
                 using="tableA_id,tableB_id"
             >
-                <SelectArrayInput
+                <AutocompleteArrayInput
                     label="TableB"
                     optionText="title"
                     fullWidth
